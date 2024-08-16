@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1, h2, h3 {
+    color: #c0ff33;
+}
+
+form {
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #c0ff33;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #c0ff33;
+    border-radius: 5px;
+    background-color: #3e3e3e;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c0ff33;
+    color: #1e1e1e;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #a0e629;
+}
+
+/* Estilos para el listado de estudiantes y estadísticas */
+#estudiantesList,
+#formulariosEstudiantes {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+div.estudianteForm {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+}
+
+#ganaronPorcentaje,
+#perdieronPorcentaje {
+    font-weight: bold;
+    color: #c0ff33;
+    text-align: center;
+}
+
+/* Efectos adicionales */
+input[type="text"]:focus,
+input[type="number"]:focus {
+    outline: none;
+    border-color: #a0e629;
+}
+
+button:focus {
+    outline: none;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de notas</title>
+    <link rel="stylesheet" href="Style.css"> 
+</head>
+<body>
+    <h1>Calculadora de Notas</h1>
+
+    <form id="numEstudiantesForm">
+        <label for="numEstudiantes">Cantidad de Estudiantes:</label>
+        <input type="number" id="numEstudiantes" min="1" required>
+        <button type="submit">Generar Formularios</button>
+    </form>
+
+
+    <div id="formulariosEstudiantes">
+    </div>
+
+    <h2>Listado de Estudiantes</h2>
+    <div id="estudiantesList">
+    </div>
+
+    <h2>Estadísticas</h2>
+    <p id="ganaronPorcentaje"></p>
+    <p id="perdieronPorcentaje"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
